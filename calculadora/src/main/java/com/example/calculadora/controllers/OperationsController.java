@@ -1,12 +1,7 @@
 package com.example.calculadora.controllers;
 
 
-import io.corp.calculator.TracerAPI;
 import io.corp.calculator.TracerImpl;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
-import org.springframework.format.annotation.NumberFormat;
-import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
