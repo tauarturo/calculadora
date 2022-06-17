@@ -7,6 +7,7 @@
 	Incluir los jars externos al proyecto.
 	Realizar la clase Controller, con los dos metodos rest getMapping.
 	Mejorar dichos métodos ante posibles errores.
+	Al final incluimos documentacion para swagger de los servicios rest
 	
 	Ejemplo de la url de los servicios:
 	
@@ -19,5 +20,9 @@
 	http://localhost:8080/calculadora/resta?minuendo=4.7&sustraendo=3
 	
     	
+		http://localhost:8080/swagger-ui/index.html
 	
-	
+	Swagger: 
+
+    http://localhost:8080/v2/api-docs
+	http://localhost:8080/swagger-ui.html#/operations-controller
